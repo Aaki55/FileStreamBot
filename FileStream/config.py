@@ -4,8 +4,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 class Telegram:
-    API_ID = int(env.get("28341884"))
-    API_HASH = str(env.get("ca0c9295ce3ec910fd6f49e99970d9a8"))
+    API_ID = int(env.get(""))
+    API_HASH = str(env.get(""))
     BOT_TOKEN = str(env.get("BOT_TOKEN"))
     OWNER_ID = int(env.get('OWNER_ID', '7252430326'))
     WORKERS = int(env.get("WORKERS", "6"))  # 6 workers = 6 commands at once
