@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 class Telegram:
-    API_ID = int(env.get(""))
+    API_ID = int(env.get('API_ID', '17584090'))
     API_HASH = str(env.get(""))
     BOT_TOKEN = str(env.get("BOT_TOKEN"))
     OWNER_ID = int(env.get('OWNER_ID', '7252430326'))
